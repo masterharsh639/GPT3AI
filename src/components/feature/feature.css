@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
+
     margin: 1rem;
 }
 
@@ -30,8 +31,7 @@
     margin-bottom: 0.25rem;
 }
 
-
-.gpt3__features-container_feature-text{
+.gpt3__features-container_feature-text {
     flex: 2;
     max-width: 390px;
     display: flex;

@@ -1,6 +1,6 @@
 .gpt3__header {
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row;
 }
 
 .gpt3__header-content {
