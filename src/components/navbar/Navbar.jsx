@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt='logo'/>
+          <img src={logo} alt='logo' href="#home" />
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home" className='header-link'>Home</a></p>
@@ -22,8 +22,8 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-sign">
         <p sx={{ marginRight: '3rem' }}>Sign in</p>
-      <button type="button">Sign up</button>
-    </div><div className="gpt3__navbar-menu">
+        <button type="button">Sign up</button>
+      </div><div className="gpt3__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
